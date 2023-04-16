@@ -1,0 +1,15 @@
+#conteudo {
+    background-color: #dcdcdc;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid gray;
+    margin: 10px;
+}

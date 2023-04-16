@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#elementos {
+    position: relative;
+    width: 5%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    rotate: 0deg;
+    animation: elemento 5s 1s infinite alternate;
+    font-size: 100%;
+    color: rgba(255, 355, 255, 0);
+    font-weight: bold;
+}
+
+#elementos img {
+    width: 100%;
+}
+
+@keyframes elemento {
+    from {
+        top: 0;
+        left: 0;
+        rotate: 0deg;
+    }
+
+    to {
+        width: 40%;
+        top: 25%;
+        left: 25%;
+        rotate: 360deg;
+        font-size: 400%;
+        color: rgba(255, 355, 255, 1);
+    }
+}
+
+/* @keyframes animacao-caixa {
+    from {
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: yellow;
+        border-radius: 300px;
+        left: 200px;
+        top: 200px;
+    }
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    animation-name: animacao-caixa;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation: animacao-caixa 2s 2s infinite alternate;
+} */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags de input</title>
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+	<script src="html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required autofocus>
+        </fieldset>
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required autofocus>
+        </fieldset>
+        <fieldset>
+            <label for="number">Número</label>
+            <input type="number" name="number" id="number" max="100" step="2">
+        </fieldset>
+        <fieldset>
+            <label for="url">URL</label>
+            <input type="url" name="url" id="url" placeholder="https://www...">
+        </fieldset>
+        <fieldset>
+            <label for="search">Pesquisa</label>
+            <input type="search" name="search" id="search">
+        </fieldset>
+        <fieldset>
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range" min="1" max="10" value="2">
+        </fieldset>
+        <fieldset>
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data">
+        </fieldset>
+        <fieldset>
+            <label for="color">Cor</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
